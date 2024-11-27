@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(252, 238, 238);
+}
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#boton-prueba:hover{
+     background-color: rgb(255, 229, 220); 
+
+}
+
+#app{
+    color: rgb(90, 13, 32);
+    font-weight: bold;
+}
+
+.boton-cv{
+    background-color:rgb(253, 237, 94) ;
+    color: black;
+}
+/* Las clases anteriores y los ID fueron agregados de  */
+.caja-habilidades{
+    background-color: rgb(27, 24, 24);
+    color: antiquewhite;
+}
+
+/* Para quitar el border de la card se pone en la clase border-0 */
