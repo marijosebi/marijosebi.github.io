@@ -27,7 +27,8 @@ ____
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
 
-### VISTA PREVIA
+## VISTA PREVIA
+_____
 <!-- En esata parte debemos de poner las capturas del proyecto ya concluido -->
 ![Proyecto](assets/clonPinterst.JPG)
 
