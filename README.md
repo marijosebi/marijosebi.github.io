@@ -3,7 +3,7 @@
 ### María José Borjón Ibarra
 
 
-Hola soy **María**, desarrolladora ***forntend jr***, egresada de Ingeniería en Sistemas por el *Instituto Politécnico Nacional*.
+Hola soy **María**, Ingeniera en Sistemas Computacionales.
 
 ____
 
@@ -32,9 +32,7 @@ ____
 ![Proyecto](assets/clonPinterst.JPG)
 
 <!-- Escribir mensje de despediada -->
-
-
-<!-- En el readme es takmbien posible agregar algunos botones  -->
+<!-- En el readme es tambien posible agregar algunos botones  -->
 
 ### Cualquier sujerencia o comentario en 
 **Coreo:** 
