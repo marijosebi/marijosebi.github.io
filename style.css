@@ -1,14 +1,16 @@
 body{
-    background-color: rgb(252, 238, 238);
+    background-color: #FBFBFB;
 }
+
 *{
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #boton-prueba:hover{
-     background-color: rgb(255, 229, 220); 
+     background-color: rgb(255, 244, 240); 
 
 }
+
 
 #app{
     color: rgb(90, 13, 32);
@@ -21,8 +23,9 @@ body{
 }
 /* Las clases anteriores y los ID fueron agregados de  */
 .caja-habilidades{
-    background-color: rgb(27, 24, 24);
-    color: antiquewhite;
+    /* background-color: $red-300; */
+    color: black;
+    background-color:peachpuff;
 }
 
 /* Para quitar el border de la card se pone en la clase border-0 */
