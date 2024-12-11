@@ -1,9 +1,10 @@
 # Portafolio de proyectos
 
-### María José Borjón Ibarra
+### María José Borjón 
 
 
-Hola soy **María**, Ingeniera en Sistemas Computacionales.
+Hola soy **Majo**, Ingeniera en Sistemas Computacionales especializada en gestion de proyectos.
+Me encuentro retomando mi intereset en en desarrollo web y análisis de datos.
 
 ____
 
