@@ -1,16 +1,21 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body{
-    /* background-color: #FBFBFB; */
-    background-color: rgb(255, 255, 255);
-}
 
 
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    /* background-color: #FBFBFB; */
+    /* background-color: rgb(255, 255, 255); */
+
+    /* background-color:  #fbfeff; */
+    background-color: #f4fde9;
+}
+
 
 header nav{
+    
     width: 100%;
     height: 60px;
     font-size: 16px;
@@ -20,33 +25,81 @@ header nav{
     align-items: center;
     position: fixed;
     z-index: 1;
-    background-color: #d5ecf5;
+    color: whitesmoke;
+    background-color: black;
+    /* background-color: rgb(114, 16, 41); */
+    
+    /* background-color: #d5ecf5; */
+    /* background-color: #138394; */
+    
+    
+    
 }
-header li:hover{
-    background-color: blueviolet;
+
+.nav-item a{
+    color: whitesmoke;
+}
+.nav-item a:hover{
+    color: white;
+    transform: scale(1.1);
     border-radius: 5px;
+    border: solid #006A67 2px;
 }
-
-/* #boton-prueba:hover{
-     background-color: rgb(0, 0, 0); 
-
-} */
-
 
 #app{
-    color: rgb(90, 13, 32);
+    /* color: rgb(90, 13, 32); */
+    color: #006A67;
+
     font-weight: bold;
 }
 
 .boton-cv{
-    background-color:rgb(253, 237, 94) ;
+    background-color:rgb(255, 255, 255) ;
     color: black;
+    border: solid black 0.7px ;
 }
 /* Las clases anteriores y los ID fueron agregados de  */
 .caja-habilidades{
-    /* background-color: $red-300; */
+    color: whitesmoke;
+    background-color:rgb(16, 16, 17);
+    font-size: 15px;
+}
+.caja-habilidades i{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.caja-habilidades h3{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.item-habilidad h3{
+    color: whitesmoke;
+}
+
+/* #proyectos{
     color: black;
     background-color:peachpuff;
+} */
+.boton-perfil{
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.nombre{
+    color: whitesmoke;
+}
+.footer a{
+    color: black;
+}
+.footer i:hover{
+    border: none;
+    transform: scale(1.3);
+    color:#006A67;
+
+}
+.boton-email{   
+    background-color:#006A67 ;
 }
 
 /* Para quitar el border de la card se pone en la clase border-0 */

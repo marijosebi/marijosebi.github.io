@@ -25,16 +25,15 @@
   <!-- HEADER -->
   <!-- <div id="yo" class="container menu"> -->
   <header class="d-flex flex-wrap justify-content-center  mb-4 border-bottom">
-    <nav>
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <nav class="nombre">
+      <a href="/"  class="nombre d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none">
         <!-- <i class="bi bi-code-slash p-3 fs-4"></i> -->
         <i class="bi bi-laptop p-3 fs-4"></i>
-
         <span class="fs-4">María José Borjón</span>
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#yo" class="nav-link active" aria-current="page">Yo</a></li>
+        <li class="nav-item boton-perfil"><a href="#yo" id=" boton-perfil" class="nav-link" aria-current="page">Yo</a></li>
         <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
         <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
         <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
@@ -92,17 +91,16 @@
     <!-- Habilidades -->
 
     <div id="habilidades" class="caja-habilidades">
-      <div class="container px-4 py-5" id="hanging-icons">
+      <div class="container px-3 py-4" id="hanging-icons">
         <h2 class="pb-2 border-bottom">Habilidades</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
           <!-- Primera habilidad -->
           <div class="col d-flex align-items-start">
-            <div
-              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <i class="bi bi-diagram-3-fill"></i>
             </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Ingeniería de Software</h3>
+            <div class="item-habilidad">
+              <h3 class="fs-2 ">Ingeniería de Software</h3>
               <p>Gestion, planeacion, documentación y desarrollo de proyectos de softare en base a normas de calidad.
               </p>
 
@@ -111,11 +109,11 @@
           <!-- Segunda habilidad -->
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <i class="bi bi-pc-display"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Soporte Técnico</h3>
+              <h3 class="fs-2 ">Soporte Técnico</h3>
               <p>Optimización y mantenimiento preventivo y correctivo de equipos de cómputo, para oficinistas y equipos
                 en wherehouses a cargo de procesos de protucción.</p>
 
@@ -128,7 +126,7 @@
               <i class="bi bi-filetype-html"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Front-end Develeper Jr</h3>
+              <h3 class="fs-2">Front-end Develeper Jr</h3>
               <p>Maquétado y creación de paginas estaticas y dinamicas utilizando HTMLS, CSS, JS como tecnologias de
                 desarrollo y Figma como herramienta de maquetado. </p>
 
@@ -142,38 +140,27 @@
               <!-- bg-body-primary we can use this as part of the classs -->
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Modelado 3D</h3>
-              <p>Modelado caricaturezco de personas, casas y animales utilizando Blender como herramienta principal.
+              <h3 class="fs-2">Modelado  y Animación 3D</h3>
+              <p>Modelado tipo cartoon de personas, casas y animales utilizando Blender como herramienta principal.
+                Animación 3D de personas y animales bipedos, así como animales cuadripedos. Principalmene caminando y
+                corriendo. 
               </p>
 
             </div>
           </div>
           <!-- Quinta -->
-          <div class="col d-flex align-items-start">
-            <div
-              class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <i class="bi bi-film"></i>
-            </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Animación 3D</h3>
-              <p>Animación 3D de personas y animales bipedos, así como animales cuadripedos. Principalmene caminando y
-                corriendo. </p>
 
-            </div>
-          </div>
-          <!-- Sexta -->
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              class="icon-square  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <i class="bi bi-file-earmark-text"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Documentación tecnica</h3>
+              <h3 class="fs-2 ">Documentación tecnica</h3>
               <p>Documentación de software y de videojuegos bajo la norma de calidad ISO/IEC 29110 </p>
 
             </div>
           </div>
-          <!-- Septima -->
           <!-- Sexta -->
           <div class="col d-flex align-items-start">
             <div
@@ -181,7 +168,7 @@
               <i class="bi bi-person-check"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Atención a cliente</h3>
+              <h3 class="fs-2">Atención a cliente</h3>
               <p>Trato precencial y mediante emails, y mensajería para reporte y solución de distintos tipos de
                 problemas en areas de producción en cadena, ingeniería, diseño, etc</p>
 
@@ -190,17 +177,17 @@
 
 
           <!-- Octava -->
-          <div class="col d-flex align-items-start">
+          <!-- <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <i class="bi bi-palette"></i>
 
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Pintura en oleo</h3>
+              <h3 class="fs-2 ">Pintura en oleo</h3>
               <p>Pintura sobre lienzo, utilizando oleo como medio. </p>
 
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -210,89 +197,88 @@
     <!-- Cierre de segunda de habilidades -->
 
     <!-- Proyectos -->
+    <div id="proyectos" class="">
+      <div id="proyectos" class="container mt-4">
+        <h2 class="pb-2 border-bottom">Proyectos de desarrollo web</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- Inicio de una card -->
+          <div class="col">
+            <!-- <h3>Ubicacion</h3> -->
+            <div class="card shadow-sm">
+              <!-- <h4>Clon de Pinterest</h4> -->
 
-    <div id="proyectos" class="container mt-4">
-      <h2 class="pb-2 border-bottom">Proyectos de desarrollo web</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <!-- Inicio de una card -->
-        <div class="col">
-          <!-- <h3>Ubicacion</h3> -->
-          <div class="card shadow-sm">
-            <h4>Clon de Pinterest</h4>
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">Thumbnail</text>
-            </svg> -->
-            <img class="bd-placeholder-img card-img-top" src="/assets/clonPinterst.JPG"
-              alt="imagen del clone de pinterest">
-            <div class="card-body">
-              <p class="card-text">Clon de pintereset.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://pinterest-clone-bltsxsurt-mariajoses-projects-e45e7b96.vercel.app/">Ver</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://github.com/marijosebi/pinterest-clone"><i
-                        class="bi bi-github"></i>Github</a></button>
+              <img class="bd-placeholder-img card-img-top" src="/assets/clonPinterst.JPG"
+                alt="imagen del clone de pinterest">
+              <div class="card-body">
+                <p class="card-text">Clon de pintereset.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://pinterest-clone-bltsxsurt-mariajoses-projects-e45e7b96.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://github.com/marijosebi/pinterest-clone"><i
+                          class="bi bi-github"></i>Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML-CSS</small>
                 </div>
-                <small class="text-body-secondary">HTML-CSS</small>
               </div>
             </div>
           </div>
-        </div>
-        <!-- FIN DE COLUMNA -->
-        <!-- Inicio de segunda columan -->
-        <div class="col">
-          <div class="card shadow-sm">
-            <h4>Primera página web</h4>
-            <img src="/assets/primerPagina.JPG" alt="">
+          <!-- FIN DE COLUMNA -->
+          <!-- Inicio de segunda columan -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <h4>Primera página web</h4> -->
+              <img src="/assets/primerPagina.JPG" alt="">
 
-            <div class="card-body">
-              <p class="card-text">Primera página</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://primera-pagina-gamma.vercel.app/">Ver</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://github.com/marijosebi/primeraPagina"><i class="bi bi-github"></i>Github</a></button>
+              <div class="card-body">
+                <p class="card-text">Primera página</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://primera-pagina-gamma.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://github.com/marijosebi/primeraPagina"><i
+                          class="bi bi-github"></i>Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML - CSS</small>
                 </div>
-                <small class="text-body-secondary">HTML - CSS</small>
               </div>
             </div>
           </div>
-        </div>
-        <!-- FIN DE CARD -->
+          <!-- FIN DE CARD -->
 
-        <!-- INICIO DE LA TERCERA CARD -->
-        <div class="col">
-          <!-- <h3>Ubicacion</h3> -->
-          <div class="card shadow-sm">
-            <h4>To do list</h4>
+          <!-- INICIO DE LA TERCERA CARD -->
+          <div class="col">
+            <!-- <h3>Ubicacion</h3> -->
+            <div class="card shadow-sm">
+              <!-- <h4>To do list</h4> -->
 
-            <img class="bd-placeholder-img card-img-top" src="/assets/toDoList.JPG" alt="To do list">
-            <div class="card-body">
-              <p class="card-text">To do list interactiva</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://todo-list-gold-psi.vercel.app/">Ver</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                      href="https://github.com/marijosebi/todoList"><i class="bi bi-github"></i>Github</a></button>
+              <img class="bd-placeholder-img card-img-top" src="/assets/toDoList.JPG" alt="To do list">
+              <div class="card-body">
+                <p class="card-text">To do list interactiva</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://todo-list-gold-psi.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                        href="https://github.com/marijosebi/todoList"><i class="bi bi-github"></i>Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML-CSS-JS</small>
                 </div>
-                <small class="text-body-secondary">HTML-CSS-JS</small>
               </div>
             </div>
           </div>
+          <!-- FIN DE LA TERCERA CARD -->
+
+
+
+
         </div>
-        <!-- FIN DE LA TERCERA CARD -->
-
-
-
-
       </div>
+
     </div>
+
 
     <!-- TESTIMONIOS (carrucel) -->
 
@@ -367,9 +353,9 @@
             <div class="d-flex justify-content-center">
               <!-- Vamo a ver si la CARD -->
               <div class="card" style="width: 18rem;">
-                <img src="/assets/Testimonio3.jpg" class="card-img-top rounded-circle" alt="...">
+                <img src="/assets/Testimonio3.jpg" class="card-img-top rounded-circle" alt="Testimonio 3">
                 <h5 class="card-title text-center">María del Rayo Ponce Vargas</h5>
-                <h6 class="card-subtitle mb-1 text-center text-body-secondary">Card subtitle</h6>
+                <h6 class="card-subtitle mb-1 text-center text-body-secondary">Ingeniera Biomédica</h6>
 
                 <div class="card-body">
                   <!-- <h5 class="card-title">Card title</h5>
@@ -425,8 +411,8 @@
           Contáctame para iniciar un nuevo proyecto juntos.
         </p>
 
-        <a href="mailto:maajob.1510@gmail.com?cc=mari_jose1997@live.com&subject=WEB DEVELOPER JOB&body=You%20are%20invited%20to%20a%20big%20summer%20party!"
-          target="_top"">
+        <a href="mailto:maajob.1510@gmail.com?cc=mari_jose1997@live.com&subject=WEB DEVELOPER JOB" target="_top">
+          <!-- target="_top"  -->
           <button class=" btn btn-primary px-5 mb-5" type="button">
           Enviar email
           </button>
@@ -436,7 +422,7 @@
     </div>
 
     <!-- Footer  -->
-    <div id="footer" class="container">
+    <div id="footer" class="container footer">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3 p-3">
           <li class="nav-item"><a href="https://www.linkedin.com/in/mariajoseborjon/"
