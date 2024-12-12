@@ -3,8 +3,8 @@
 ### María José Borjón 
 
 
-Hola soy **Majo**, Ingeniera en Sistemas Computacionales especializada en gestion de proyectos.
-Me encuentro retomando mi intereset en en desarrollo web y análisis de datos.
+Hola soy **Majo**, Ingeniera en Sistemas Computacionales  especializada en Ingeniería de Software
+Me encuentro retomando mi interest en en desarrollo web y análisis de datos.
 
 ____
 
