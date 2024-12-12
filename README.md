@@ -4,6 +4,7 @@
 
 
 Hola soy **María**, desarrolladora ***forntend jr***, egresada de Ingeniería en Sistemas por el *Instituto Politécnico Nacional*.
+Link de visualización: https://marijosebi.github.io/
 
 ____
 
@@ -29,7 +30,10 @@ ____
 
 ### VISTA PREVIA
 <!-- En esata parte debemos de poner las capturas del proyecto ya concluido -->
-![Proyecto](assets/clonPinterst.JPG)
+![Proyecto](assets/capturaP1.JPG)
+![Proyecto](assets/capturaP2.JPG)
+![Proyecto](assets/capturaP3.JPG)
+![Proyecto](assets/capturaP4.JPG)
 
 <!-- Escribir mensje de despediada -->
 
