@@ -3,7 +3,7 @@
 ### María José Borjón Ibarra
 
 
-Hola soy **María**, desarrolladora ***forntend jr***, egresada de Ingeniería en Sistemas por el *Instituto Politécnico Nacional*.
+Hola soy **MaJo**, desarrolladora ***forntend jr***, egresada de Ingeniería en Sistemas por el *Instituto Politécnico Nacional*.
 Link de visualización: https://marijosebi.github.io/
 
 ____
@@ -41,7 +41,7 @@ ____
 <!-- En el readme es takmbien posible agregar algunos botones  -->
 
 ### Cualquier sujerencia o comentario en 
-**Coreo:** 
+**Correo:** 
 [mari_jose1997@live.com](mailto:mari_jose1997@live.com)
 
 
